@@ -994,8 +994,8 @@ class PGSH:
             return result
         print("before getkey")
         key = os.environ.get('SENDKEY')
-        key = "SCT259624TyiST6Y5FLUu81QgD2yb9uruW"
-        key = "SCT259624TCCq4DtUTI8bPVHSWb8FtCQfF"
+        key = ""
+        key = ""
         #print(f"key={key}")
         print("after getkey")
         ret = sc_send(key, 'pgsh', self.msg)
